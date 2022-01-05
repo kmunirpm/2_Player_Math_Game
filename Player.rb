@@ -1,10 +1,11 @@
 class Player
   attr_accessor :lives
-  attr_reader :name
+  attr_reader :name, :total_lives
   
-  def initialize(name)
+  def initialize(name, total_lives)
     @name = name
-    @lives = 3 #lives hard coded
+    @total_lives = total_lives
+    @lives = @total_lives
   end
  
 end
