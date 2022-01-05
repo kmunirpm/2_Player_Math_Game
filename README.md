@@ -42,6 +42,6 @@ Question: 'When called generates a question based on two random numbers from 1 t
 
 Player: 'Creates a player, initializes it with 3 lives, and keep track of lives'
 
-Game: 'Responsible the actual game play, track player turns, ask questions & check answers (using question class), decrements lives in case of incorrect answer (using player class)'
+Game: 'Responsible the actual game play, track player turns, ask questions & check answers 
+      (using question class), decrements lives in case of incorrect answer (using player class)'
 ```
-
